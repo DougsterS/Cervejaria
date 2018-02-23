@@ -16,8 +16,8 @@ public class Cerveja {
 			y = leitor.nextInt();//Recebe o valor atribuido como opção
 			
 			if (y == 1){
-			x = x - 1;
-			System.out.println("Sobraram " + x + " Cerveja(s)");
+				x = x - 1;
+				System.out.println("Sobraram " + x + " Cerveja(s)");
 			
 			} else{
 				System.out.println("Tem certeza?");
