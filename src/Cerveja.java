@@ -4,7 +4,7 @@ public class Cerveja {
 	
 	public static void main(String[] args){
 		//x = Quantidade de cerveja
-		//y = OpÁıes
+		//y = Op√ß√µes
 		int x = 99;
 		int y = 0;
 		
@@ -13,8 +13,8 @@ public class Cerveja {
 		while (x > 1){
 			System.out.println("Temos " + x + " Cerveja(s) na freezer, quer tomar uma? ");
 			System.out.println("1 - Sim");
-			System.out.println("2 - N„o");
-			y = leitor.nextInt();//Recebe o valor atribuido como opÁ„o
+			System.out.println("2 - N√£o");
+			y = leitor.nextInt();//Recebe o valor atribuido como op√ß√£o
 			
 			if (y == 1){
 			x = x - 1;
@@ -23,21 +23,21 @@ public class Cerveja {
 			} else{
 				System.out.println("Tem certeza?");
 				System.out.println("1 - Sim");
-				System.out.println("2 - N„o");
+				System.out.println("2 - N√£o");
 				y = leitor.nextInt();
 				while (y == 1){
 					System.out.println("Tem certeza?");
 					System.out.println("1 - Sim");
-					System.out.println("2 - N„o");
+					System.out.println("2 - N√£o");
 					y = leitor.nextInt();
 				}
 				
 			}
 			
 			if (x == 1){
-				System.out.println("SÛ tem uma patr„o! Quer comprar mais?");
+				System.out.println("S√≥ tem uma patr√£o! Quer comprar mais?");
 				System.out.println("1 - Sim");
-				System.out.println("2 - N„o");
+				System.out.println("2 - N√£o");
 				y = leitor.nextInt();
 				
 				if (y == 1){
@@ -45,19 +45,19 @@ public class Cerveja {
 					y = leitor.nextInt();
 					x = x + y;
 				} else{
-					System.out.println("Compra mais uma pow, deixa de ser p„o duro! Vai comprar?");
+					System.out.println("Compra mais uma pow, deixa de ser p√£o duro! Vai comprar?");
 					System.out.println("1 - Sim");
-					System.out.println("2 - N„o");
+					System.out.println("2 - N√£o");
 					y = leitor.nextInt();
 					if (y == 2){
-						System.out.println("Poxa vei, faÁo litr„o a R$2,00! Quer?");
+						System.out.println("Poxa vei, fa√ßo litr√£o a R$2,00! Quer?");
 						System.out.println("1 - Sim");
-						System.out.println("2 - N„o");
+						System.out.println("2 - N√£o");
 						y = leitor.nextInt();
 						while (y == 2){
 							System.out.println("Quer?");
 							System.out.println("1 - Sim");
-							System.out.println("2 - N„o");
+							System.out.println("2 - N√£o");
 							y = leitor.nextInt();
 							if (y == 1){
 								System.out.println("Quantas cervejas deseja comprar??");
@@ -66,10 +66,8 @@ public class Cerveja {
 							}
 						}
 					}
-					
 				}
 			}
-			
 		}
 	}
 }
