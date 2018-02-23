@@ -3,10 +3,9 @@ import java.util.Scanner;//Ativa o scanner
 public class Cerveja {
 	
 	public static void main(String[] args){
-		//x = Quantidade de cerveja
-		//y = Opções
-		int x = 99;
-		int y = 0;
+		
+		int x = 99;//Quantidade de cerveja
+		int y = 0;//Opções
 		
 		Scanner leitor = new Scanner(System.in); //Scanner declarado
 		
